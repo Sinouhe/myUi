@@ -1,13 +1,12 @@
 import gsap from 'gsap';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import './style.scss';
 
 const AnimatedMenu = () => {
-  const [test, setTest] = useState(1);
+  // to improve
   useEffect(() => {
     const items = document.querySelectorAll('.item');
     gsap.defaults({ duration: 0.3 });
-    const testbis = test;
 
     items.forEach(function (item) {
       const tl = gsap
@@ -25,7 +24,7 @@ const AnimatedMenu = () => {
     });
 
     /*  */
-  });
+  }, []);
   return (
     <>
       <div className="item home">

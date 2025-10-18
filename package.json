@@ -9,9 +9,24 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
-    "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
-    "format": "prettier --write ."
+    "prepare": "husky",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint src --ext .ts,.tsx,.js,.jsx --fix --cache",
+    "format": "prettier --write .",
+    "build:storybook": "storybook build",
+    "preview:storybook": "npx http-server storybook-static -p 6007 -o"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix --cache"
+    ],
+    "*.{css,scss,md,json}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "gsap": "^3.13.0",
@@ -44,6 +59,8 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "eslint-plugin-storybook": "^9.1.13",
     "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.2",
     "playwright": "^1.56.1",
     "prettier": "^3.6.2",
     "sass-embedded": "^1.93.2",
