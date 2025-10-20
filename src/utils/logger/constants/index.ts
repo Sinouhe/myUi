@@ -1,0 +1,17 @@
+export const loggerKeys = {
+  dataProvider: 'dataProvider',
+  uiProvider: 'uiProvider',
+  lookDetails: 'lookDetails',
+  lookShow: 'lookShow',
+  productsGrids: 'productsGrids',
+  debug: 'debug',
+  services: 'services',
+  wishList: 'wishList',
+  connectionHook: 'connectionHook',
+  all: 'all',
+  brightcove: 'brightcove',
+  edito: 'edito',
+  playerVideoFsh: 'playerVideoFsh',
+  allPageMediaExternalFlow: 'allPageMediaExternalFlow',
+  vto: 'vto',
+};
