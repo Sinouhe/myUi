@@ -1,0 +1,168 @@
+//$main-color: #a5a54f;
+$main-color: black;
+
+.continue_scrolling {
+  padding: 7px 20px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 50px;
+
+  &__up_down {
+    position: relative;
+    width: 45px;
+    height: 50px;
+    animation: upDown 3s infinite linear;
+  }
+
+  &__arrow {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    filter: blur(0.3px);
+    animation: rotateY 7s infinite linear;
+
+    &_one {
+      position: absolute;
+      top: 0;
+      left: 30%;
+      width: 40%;
+      height: 18%;
+      &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: $main-color;
+      }
+      &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        left: 2px;
+        background-color: rgb(234, 54, 175);
+      }
+    }
+    &_two {
+      position: absolute;
+      top: 20.5%;
+      left: 30%;
+      width: 40%;
+      height: 18%;
+      &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: $main-color;
+      }
+      &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        left: 2px;
+        background-color: rgb(234, 54, 175);
+      }
+    }
+    &_three {
+      position: absolute;
+      background-color: rgb(234, 54, 175);
+      height: 100%;
+      width: 100%;
+      left: 2px;
+      clip-path: polygon(
+        30% 41%,
+        70% 41%,
+        70% 55%,
+        100% 55%,
+        95.66% 59%,
+        4.44% 59%,
+        0% 55%,
+        30% 55%
+      );
+
+      &_bis {
+        position: absolute;
+        background-color: $main-color;
+        height: 100%;
+        width: 100%;
+        clip-path: polygon(
+          30% 41%,
+          70% 41%,
+          70% 55%,
+          100% 55%,
+          95.66% 59%,
+          4.44% 59%,
+          0% 55%,
+          30% 55%
+        );
+      }
+    }
+    &_four {
+      position: absolute;
+      background-color: rgb(234, 54, 175);
+      height: 100%;
+      width: 100%;
+      left: 2px;
+      clip-path: polygon(92.78% 61.5%, 72.78% 79.5%, 27.22% 79.5%, 7.22% 61.5%);
+      &_bis {
+        position: absolute;
+        background-color: $main-color;
+        height: 100%;
+        width: 100%;
+        clip-path: polygon(92.78% 61.5%, 72.78% 79.5%, 27.22% 79.5%, 7.22% 61.5%);
+      }
+    }
+    &_five {
+      position: absolute;
+      background-color: rgb(234, 54, 175);
+      height: 100%;
+      width: 100%;
+      left: 2px;
+      clip-path: polygon(29.97% 82%, 70.03% 82%, 50% 100%);
+      &_bis {
+        position: absolute;
+        background-color: $main-color;
+        height: 100%;
+        width: 100%;
+        clip-path: polygon(29.97% 82%, 70.03% 82%, 50% 100%);
+      }
+    }
+  }
+
+  &__text {
+    position: relative;
+    color: $main-color;
+    text-shadow: rgb(234, 54, 175) 1.45905px 0.229527px 0;
+    font-weight: 400;
+    font-family: Menlo, Consolas, monospace;
+    letter-spacing: 2px;
+    line-height: 21px;
+    font-size: 14px;
+    top: -5px;
+    left: 20px;
+  }
+}
+
+@keyframes rotateY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes upDown {
+  0% {
+    top: 2px;
+  }
+  50% {
+    top: -2px;
+  }
+  100% {
+    top: 2px;
+  }
+}

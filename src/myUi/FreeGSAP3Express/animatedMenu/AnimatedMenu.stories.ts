@@ -4,7 +4,7 @@ import AnimatedMenu from '.';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'MyUi/AnimatedMenu',
+  title: 'MyUi/FreeGSAP3Express/AnimatedMenu',
   component: AnimatedMenu,
   parameters: {
     layout: 'centered',

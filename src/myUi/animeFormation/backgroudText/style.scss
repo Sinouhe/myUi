@@ -1,0 +1,19 @@
+h1 {
+  font-size: 200px;
+  align-items: center;
+  text-transform: uppercase;
+  background: url('/img/backgroundText.jpg');
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: text-background 20s linear infinite;
+}
+
+@keyframes text-background {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
+}
