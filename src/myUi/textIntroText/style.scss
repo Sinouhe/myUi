@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Dalmation';
+  src: url('/fonts/Dalmation.otf') format('truetype');
+}
+
+.text_intro {
+  overflow: hidden;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+
+  &__up {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 60%;
+
+    &__close_btn {
+      position: absolute;
+      top: 5%;
+      left: 80%;
+    }
+
+    &__text {
+      position: absolute;
+      color: white;
+      font-family: 'Dalmation', sans-serif;
+      font-size: 140px;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0 20px;
+      overflow: hidden;
+
+      &__slice {
+        z-index: 2;
+        clip-path: polygon(0 51%, 100% 51%, 100% 0, 0 0);
+        animation: 1s slideTextUp forwards 0.4s;
+        &::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%;
+          height: 2px;
+          background-color: white;
+          transform: scaleY(0);
+          left: calc(100% - 2px);
+          animation: 0.5s slicer forwards;
+        }
+      }
+    }
+  }
+
+  &__down {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 40%;
+    top: 60%;
+
+    &__text {
+      position: absolute;
+      color: white;
+      font-family: 'Dalmation', sans-serif;
+      font-size: 140px;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0 20px;
+
+      &__slice {
+        clip-path: polygon(0 49%, 100% 49%, 100% 100%, 0% 100%);
+        animation: 1s slideTextDown forwards 0.4s;
+        &::before {
+          display: none;
+        }
+        &::after {
+          display: none;
+        }
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        width: calc(120% + 8px);
+        height: 100%;
+        border-left: 4px solid white;
+        transform: scaleY(0);
+        animation: 3s lineMove forwards 0.5s;
+        left: -10%;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        background-color: black;
+        width: 120%;
+        height: 100%;
+        transform: scaleY(1) !important;
+        margin-left: 4px;
+        animation: 3s lineMove forwards 0.5s;
+        left: -10%;
+      }
+    }
+  }
+}
+
+@keyframes slideTextUp {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    transform: translate(calc(-50% + 20px), calc(-50% - 10px));
+  }
+}
+
+@keyframes slideTextDown {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    transform: translate(calc(-50% - 20px), calc(-50% + 10px));
+  }
+}
+
+@keyframes slicer {
+  0% {
+    left: calc(100% - 2px);
+    transform: scaleY(0);
+  }
+  20% {
+    left: calc(100% - 2px);
+    transform: scaleY(1);
+  }
+  100% {
+    left: -101%;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes lineMove {
+  10% {
+    left: -10%;
+    transform: scaleY(1);
+  }
+  50% {
+    left: 45%;
+    transform: scaleY(1);
+  }
+  65% {
+    left: 25%;
+    transform: scaleY(1);
+  }
+  80% {
+    left: 110%;
+    transform: scaleY(1);
+  }
+  100% {
+    left: 110%;
+    transform: scaleY(0);
+  }
+}
