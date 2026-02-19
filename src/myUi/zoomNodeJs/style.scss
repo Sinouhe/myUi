@@ -1,0 +1,84 @@
+#storybook-root {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mui-zoom-node-js {
+  height: 600vh;
+  width: 100vw;
+
+  &__sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: block;
+    overflow: hidden;
+  }
+
+  &__container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+
+  &__background--top {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    background-color: white;
+  }
+
+  &__text {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 100%;
+    flex: 0 0 auto;
+    backface-visibility: hidden;
+    top: -1px;
+
+    &--left {
+      position: relative;
+      text-align: right;
+      background-color: white;
+      height: 100%;
+      width: calc(100% + 0.5px);
+      left: 0.5px;
+    }
+
+    &--right {
+      position: relative;
+      background-color: white;
+      height: 100%;
+      width: calc(100% + 0.5px);
+      margin-left: -0.5px;
+      right: 1px;
+    }
+  }
+
+  &__background--bottom {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    background-color: white;
+  }
+
+  &__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  svg {
+    top: 30%;
+    left: 20%;
+    fill: black;
+    width: 30px;
+    height: 30px;
+  }
+}
