@@ -7,7 +7,7 @@ import './style.scss';
 
 const BASE_CLASSNAME = 'mui-zoom-node-js';
 
-export function ZoomNodeJs() {
+const ZoomNodeJs = () => {
   const stickyRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -63,6 +63,6 @@ export function ZoomNodeJs() {
       </div>
     </div>
   );
-}
+};
 
 export default ZoomNodeJs;
