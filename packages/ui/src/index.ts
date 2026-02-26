@@ -6,6 +6,7 @@ export { default as ZoomNodeJs } from './components/zoomNodeJs';
 
 // ─── animeFormation ───────────────────────────────────────────────────────────
 // Note: AnimeSwipeBtn aliased to avoid collision with top-level SwipeBtn
+// TODO: Fix internal export naming in animeFormation/backgroudText (currently exports LightingButton)
 export { default as BackgroundText } from './components/animeFormation/backgroudText';
 export { default as ContinueScrolling } from './components/animeFormation/continueScrolling';
 export { default as LightingBtn } from './components/animeFormation/lightingBtn';
