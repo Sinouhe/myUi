@@ -10,12 +10,21 @@ import globals from 'globals';
 
 export default [
   {
-    files: ['src/**/*.{ts,tsx,js,jsx}'],
-    ignores: ['node_modules', 'dist', 'storybook-static', 'eslint.config.js'],
+    // Global ignores applied before all other configs
+    ignores: [
+      '**/node_modules/**',
+      '**/dist/**',
+      '**/.next/**',
+      '**/storybook-static/**',
+      'eslint.config.js',
+    ],
+  },
+  {
+    files: ['packages/*/src/**/*.{ts,tsx}', 'apps/*/src/**/*.{ts,tsx}'],
     languageOptions: {
       parser: tseslint.parser,
       parserOptions: {
-        project: ['./tsconfig.app.json'],
+        project: true,
         tsconfigRootDir: import.meta.dirname,
       },
       sourceType: 'module',
@@ -36,7 +45,7 @@ export default [
       'import/resolver': {
         typescript: {
           alwaysTryTypes: true,
-          project: ['./tsconfig.json', './tsconfig.app.json'],
+          project: ['./packages/*/tsconfig.json', './apps/*/tsconfig.json'],
           noWarnOnMultipleProjects: true,
         },
         node: true,
@@ -56,7 +65,7 @@ export default [
       'react/self-closing-comp': 'error',
       'react/jsx-boolean-value': ['error', 'never'],
 
-      // Hooks (on n’utilise pas le preset legacy ; on active les règles ici)
+      // Hooks (on n'utilise pas le preset legacy ; on active les règles ici)
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'error',
 

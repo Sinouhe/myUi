@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import UAParser from 'ua-parser-js';
+import { UAParser } from 'ua-parser-js';
 import { BREAKPOINTS, MEDIA_QUERIES } from '../../constants/media';
 import { isNode } from '../isomorph';
 
@@ -209,13 +209,14 @@ class MediaSingleton {
     if (this._isInit || isNode) return;
     this._isInit = true;
 
-    const uaparser = UAParser(),
-      {
-        browser = { name: undefined },
-        device = { name: undefined, model: undefined },
-        engine = { name: undefined },
-        os = { name: undefined },
-      } = uaparser;
+    const uaparser = new UAParser();
+
+    const {
+      browser = { name: undefined },
+      device = { model: undefined },
+      engine = { name: undefined },
+      os = { name: undefined, version: undefined },
+    } = uaparser.getResult();
 
     this._initialDevice = {
       safari: browser.name?.includes('Safari'),
