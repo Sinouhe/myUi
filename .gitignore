@@ -27,4 +27,4 @@ dist-ssr
 *storybook.log
 storybook-static
 
-**/*.mp4
+**/*.mp4.eslintcache
