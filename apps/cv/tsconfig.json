@@ -1,10 +1,6 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "@myui/tsconfig/next.json",
   "compilerOptions": {
-    "module": "NodeNext",
-    "noEmit": true,
-    "incremental": true,
-    "isolatedModules": true,
     "plugins": [{ "name": "next" }],
     "paths": {
       "@/*": ["./src/*"]

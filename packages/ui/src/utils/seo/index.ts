@@ -43,7 +43,7 @@ export const minifyTemplateString = (str: string): string => {
     ? str
         // eslint-disable-next-line no-useless-escape
         .replace(/\>[\r\n ]+\</g, '><')
-        .replace(/(<.*?>)|\s+/g, (m, $1) => ($1 ? $1 : ' '))
+        .replace(/(<.*?>)|\s+/g, (_m, $1) => ($1 ? $1 : ' '))
         .trim()
     : str;
 };

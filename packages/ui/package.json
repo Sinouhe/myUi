@@ -11,7 +11,8 @@
     "dev": "storybook dev -p 6006",
     "build:storybook": "storybook build",
     "typecheck": "tsc -p tsconfig.typecheck.json --noEmit",
-    "lint": "eslint src"
+    "lint": "eslint src && stylelint 'src/**/*.scss'",
+    "lint:styles": "stylelint 'src/**/*.scss'"
   },
   "peerDependencies": {
     "react": "^18 || ^19",
@@ -24,6 +25,8 @@
     "ua-parser-js": "^2.0.6"
   },
   "devDependencies": {
+    "@myui/stylelint-config": "workspace:*",
+    "@myui/tsconfig": "workspace:*",
     "@chromatic-com/storybook": "^4.1.1",
     "@storybook/addon-a11y": "^9.1.13",
     "@storybook/addon-docs": "^9.1.13",

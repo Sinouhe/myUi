@@ -1,0 +1,14 @@
+{
+  "name": "@myui/stylelint-config",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.cjs",
+  "exports": {
+    ".": "./index.cjs"
+  },
+  "peerDependencies": {
+    "stylelint": ">=16",
+    "stylelint-config-recommended-scss": ">=14",
+    "stylelint-scss": ">=6"
+  }
+}
