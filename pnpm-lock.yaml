@@ -75,6 +75,12 @@ importers:
       '@myui/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
+      '@myui/prettier-config':
+        specifier: workspace:*
+        version: link:../../packages/prettier-config
+      '@myui/stylelint-config':
+        specifier: workspace:*
+        version: link:../../packages/stylelint-config
       '@myui/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
@@ -90,9 +96,18 @@ importers:
       '@types/react-dom':
         specifier: ^19
         version: 19.2.3(@types/react@19.2.14)
+      postcss-scss:
+        specifier: ^4.0.9
+        version: 4.0.9(postcss@8.5.6)
       sass-embedded:
         specifier: ^1.93.0
         version: 1.97.3
+      stylelint:
+        specifier: ^16.26.1
+        version: 16.26.1(typescript@5.9.3)
+      stylelint-config-standard-scss:
+        specifier: ^16.0.0
+        version: 16.0.0(postcss@8.5.6)(stylelint@16.26.1(typescript@5.9.3))
       tailwindcss:
         specifier: ^4
         version: 4.2.1

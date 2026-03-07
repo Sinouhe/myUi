@@ -8,14 +8,6 @@ export default [
   },
   ...createConfig({
     tsconfigRootDir: rootDir,
-    tsconfigPath: 'tsconfig.json',
+    tsconfigPath: 'tsconfig.eslint.json',
   }),
-  {
-    files: ['**/*.{ts,tsx,js,jsx}'],
-    rules: {
-      // role="list" is intentionally explicit on <ul> styled with list-style:none
-      // — Safari strips the implicit list role in that case.
-      'jsx-a11y/no-redundant-roles': 'off',
-    },
-  },
 ];

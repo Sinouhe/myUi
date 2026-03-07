@@ -149,7 +149,7 @@ export function createConfig({ tsconfigRootDir, tsconfigPath } = {}) {
         ...tseslint.configs.recommended[0].rules,
         ...a11y.configs.recommended.rules,
 
-        'prefer-const': 'error',
+        'prefer-const': 'warn',
         'no-undef': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],

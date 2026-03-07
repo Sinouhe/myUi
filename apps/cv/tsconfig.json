@@ -2,6 +2,7 @@
   "extends": "@myui/tsconfig/next.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }],
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }

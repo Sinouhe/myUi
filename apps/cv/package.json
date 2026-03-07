@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint src"
+    "lint": "eslint . && pnpm run lint:styles"
   },
   "dependencies": {
     "@myui/ui": "workspace:*",
@@ -17,13 +17,19 @@
   },
   "devDependencies": {
     "@myui/eslint-config": "workspace:*",
+    "@myui/prettier-config": "workspace:*",
+    "@myui/stylelint-config": "workspace:*",
     "@myui/tsconfig": "workspace:*",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "postcss-scss": "^4.0.9",
     "sass-embedded": "^1.93.0",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard-scss": "^16.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "prettier": "@myui/prettier-config"
 }
