@@ -4,7 +4,7 @@ import './style.scss';
 import { useEffect } from 'react';
 
 let split;
-let animation = gsap.timeline({ id: 'animation', repeat: 10, repeatDelay: 1 });
+const animation = gsap.timeline({ id: 'animation', repeat: 10, repeatDelay: 1 });
 
 const SplitLineComponent = () => {
   useEffect(() => {

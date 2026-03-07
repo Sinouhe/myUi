@@ -8,23 +8,23 @@ gsap.registerPlugin(MotionPathPlugin);
 const SvgComponent: React.FC = () => {
   useEffect(() => {
     //input slider
-    let select = (e: any) => document.querySelector(e);
+    const select = (e: any) => document.querySelector(e);
 
-    let progressSlider = select('#progressSlider');
-    let time = select('#time');
-    let pause = select('#pause'); //better than document.querySelector("#pause")
-    let home = select('#home');
-    let candy = select('#candy');
-    let dogpark = select('#dogpark');
-    let school = select('#school');
-    let herman = select('#herman');
+    const progressSlider = select('#progressSlider');
+    const time = select('#time');
+    const pause = select('#pause'); //better than document.querySelector("#pause")
+    const home = select('#home');
+    const candy = select('#candy');
+    const dogpark = select('#dogpark');
+    const school = select('#school');
+    const herman = select('#herman');
 
     const animationUpdate = () => {
       progressSlider.value = animation.progress();
       time.innerHTML = (this as any)?.time().toFixed(2);
     };
 
-    let animation = gsap.to(herman, {
+    const animation = gsap.to(herman, {
       duration: 6,
       ease: 'none',
       motionPath: {

@@ -12,7 +12,7 @@
   ],
   "peerDependencies": {
     "stylelint": ">=16",
-    "stylelint-config-standard-scss": ">=13",
+    "stylelint-config-standard-scss": ">=16",
     "postcss-scss": ">=4"
   }
 }

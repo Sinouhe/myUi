@@ -16,10 +16,10 @@ export default {
   ignoreFiles: ['**/dist/**', '**/node_modules/**'],
 
   plugins: [
-    './stylelint-one-root-block.js',
-    './stylelint-no-nested-classes-in-include.js',
-    './stylelint-high-contrast-rule.js',
-    './stylelint-no-bem-nested.js',
+    './plugins/stylelint-one-root-block.js',
+    './plugins/stylelint-no-nested-classes-in-include.js',
+    './plugins/stylelint-high-contrast-rule.js',
+    './plugins/stylelint-no-bem-nested.js',
   ],
 
   rules: {

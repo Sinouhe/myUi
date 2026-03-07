@@ -25,8 +25,12 @@
     "ua-parser-js": "^2.0.6"
   },
   "devDependencies": {
+    "@myui/eslint-config": "workspace:*",
     "@myui/stylelint-config": "workspace:*",
     "@myui/tsconfig": "workspace:*",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^16.21.0",
+    "stylelint-config-standard-scss": "^16.0.0",
     "@chromatic-com/storybook": "^4.1.1",
     "@storybook/addon-a11y": "^9.1.13",
     "@storybook/addon-docs": "^9.1.13",

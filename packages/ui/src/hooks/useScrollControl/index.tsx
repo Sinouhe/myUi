@@ -46,15 +46,12 @@ const useScrollControl = ({
     }>({
       top: '',
     }),
-    // eslint-disable-next-line no-unused-vars
     refPreventDefault = useRef<(e: Event) => void>((e: Event): void => {
       e.preventDefault();
     }),
-    // eslint-disable-next-line no-unused-vars
     refAllowTouchMove = useRef<(e: TouchEvent) => void>((e: TouchEvent): void => {
       e.stopPropagation();
     }),
-    // eslint-disable-next-line no-unused-vars
     refAllowScroll = useRef<(e: WheelEvent) => void>((e: WheelEvent): void => {
       const element = e.currentTarget as HTMLElement;
 
@@ -67,7 +64,6 @@ const useScrollControl = ({
         e.stopPropagation();
       }
     }),
-    // eslint-disable-next-line no-unused-vars
     refPreventExcessiveScroll = useRef<(e: WheelEvent) => void>((e: WheelEvent): void => {
       const element = e.target as HTMLElement;
 
@@ -78,7 +74,6 @@ const useScrollControl = ({
         refPreventDefault.current(e);
       }
     }),
-    // eslint-disable-next-line no-unused-vars
     refPreventDefaultForScrollKeys = useRef<(e: KeyboardEvent) => void>(
       (e: KeyboardEvent): void => {
         // Keys that cause scrolling

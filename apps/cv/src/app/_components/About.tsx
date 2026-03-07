@@ -7,8 +7,8 @@ export function About() {
       <SectionHeading id="about-heading">About</SectionHeading>
       <div className="max-w-2xl space-y-4 text-base leading-relaxed text-zinc-600">
         <p>
-          I am a full-stack developer with over 10 years of professional experience delivering
-          web applications for large French corporations and international groups. My work spans
+          I am a full-stack developer with over 10 years of professional experience delivering web
+          applications for large French corporations and international groups. My work spans
           front-end architecture, component libraries, and back-end API design.
         </p>
         <p>

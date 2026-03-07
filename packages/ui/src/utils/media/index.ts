@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { UAParser } from 'ua-parser-js';
 import { BREAKPOINTS, MEDIA_QUERIES } from '../../constants/media';
 import { isNode } from '../isomorph';

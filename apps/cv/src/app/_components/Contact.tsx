@@ -7,8 +7,8 @@ export function Contact() {
     <Section id="contact">
       <SectionHeading id="contact-heading">Contact</SectionHeading>
       <p className="mb-8 max-w-md text-base leading-relaxed text-zinc-600">
-        Available for new opportunities and consulting engagements. Feel free to reach out by
-        email or connect on LinkedIn.
+        Available for new opportunities and consulting engagements. Feel free to reach out by email
+        or connect on LinkedIn.
       </p>
       <dl className="space-y-3">
         {contactLinks.map((link) => (

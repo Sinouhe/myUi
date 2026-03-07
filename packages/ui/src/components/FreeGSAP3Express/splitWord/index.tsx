@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 gsap.registerPlugin(SplitText);
 
 let split;
-let animation = gsap.timeline({ repeat: 10, yoyo: true, repeatDelay: 0.3 });
+const animation = gsap.timeline({ repeat: 10, yoyo: true, repeatDelay: 0.3 });
 
 const SplitWordComponent = () => {
   useEffect(() => {

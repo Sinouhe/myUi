@@ -7,7 +7,7 @@
 // and makes the data easy to validate or consume programmatically.
 export type Period = {
   start: string; // four-digit year, e.g. "2021"
-  end: string;   // four-digit year or "Present"
+  end: string; // four-digit year or "Present"
 };
 
 export type ExperienceEntry = {

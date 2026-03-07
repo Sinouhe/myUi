@@ -16,6 +16,7 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@myui/eslint-config": "workspace:*",
     "@myui/tsconfig": "workspace:*",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",

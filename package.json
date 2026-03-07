@@ -18,8 +18,8 @@
     "*.{ts,tsx,js,jsx}": [
       "eslint --fix --cache"
     ],
-    "*.scss": [
-      "stylelint --fix --config packages/stylelint-config/index.cjs"
+    "packages/ui/src/**/*.scss": [
+      "pnpm --filter @myui/ui exec stylelint --fix"
     ],
     "*.{css,scss,md,json}": [
       "prettier --write"
@@ -27,13 +27,9 @@
   },
   "prettier": "@myui/prettier-config",
   "devDependencies": {
+    "@eslint/js": "^9.36.0",
     "@myui/eslint-config": "workspace:*",
     "@myui/prettier-config": "workspace:*",
-    "@myui/stylelint-config": "workspace:*",
-    "stylelint": "^16.21.0",
-    "stylelint-config-recommended-scss": "^14.1.0",
-    "stylelint-scss": "^6.12.0",
-    "@eslint/js": "^9.36.0",
     "eslint": "^9.38.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",

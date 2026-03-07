@@ -30,7 +30,6 @@ const ZoomNodeJs = () => {
       //stickyRef.current.style.transform = `translate(-50%, -50%) scale(${scale})`;
 
       // stickyRef.current.style.transform = `scale(${scale})`;
-      console.log(`translateZ(0) scale(${scale})`);
       stickyRef.current.style.transform = `translateZ(0) scale(${scale})`;
     };
 
