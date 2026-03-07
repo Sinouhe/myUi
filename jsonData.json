@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "locale": "fr-FR",
+    "updatedAt": "2026-03-07"
+  },
+  "profile": {
+    "fullName": "John Doe",
+    "headline": "Full-Stack Developer",
+    "summary": "Experienced developer specialised in modern frontend architecture, reusable component systems, and scalable web applications.",
+    "location": "Paris, France",
+    "availability": "Open to opportunities"
+  },
+  "clients": ["Air Liquide", "Société Générale", "Intermarché", "Mazarine", "Chanel"],
+  "skills": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "items": ["React", "Next.js", "TypeScript", "SCSS", "Tailwind CSS", "Storybook"]
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "items": ["Node.js", "Express", "PostgreSQL", "REST APIs", "GraphQL"]
+    },
+    {
+      "id": "testing",
+      "label": "Testing",
+      "items": ["Jest", "Vitest", "Cypress", "Testing Library", "Playwright"]
+    },
+    {
+      "id": "tooling",
+      "label": "Tooling",
+      "items": ["Git", "pnpm", "Vite", "Webpack", "Docker", "CI/CD"]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "items": ["Monorepo", "Design Systems", "SSR / SSG", "Micro-frontends"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "societe-generale-senior-front-end-developer",
+      "company": "Société Générale",
+      "role": "Senior Front-End Developer",
+      "period": {
+        "start": "2021",
+        "end": "Present"
+      },
+      "summary": "Led the front-end architecture of a customer-facing banking portal serving 2M+ users. Built and maintained a shared design system consumed by five product teams across two business units.",
+      "tech": ["React", "TypeScript", "SCSS", "Jest", "Storybook", "Webpack"]
+    },
+    {
+      "id": "intermarche-full-stack-developer",
+      "company": "Intermarché",
+      "role": "Full-Stack Developer",
+      "period": {
+        "start": "2018",
+        "end": "2021"
+      },
+      "summary": "Developed e-commerce features and back-office tools for the Intermarché digital platform. Introduced end-to-end testing practices and reduced regression rates by 60% over two release cycles.",
+      "tech": ["Next.js", "Node.js", "PostgreSQL", "Cypress", "GraphQL"]
+    },
+    {
+      "id": "mazarine-front-end-developer",
+      "company": "Mazarine",
+      "role": "Front-End Developer",
+      "period": {
+        "start": "2015",
+        "end": "2018"
+      },
+      "summary": "Delivered interactive web experiences for luxury brand clients including premium campaign microsites and editorial platforms for international audiences.",
+      "tech": ["React", "SCSS", "GSAP", "Webpack", "Storybook"]
+    },
+    {
+      "id": "air-liquide-junior-developer",
+      "company": "Air Liquide",
+      "role": "Junior Developer",
+      "period": {
+        "start": "2013",
+        "end": "2015"
+      },
+      "summary": "Built internal web tools for the digital transformation programme. Contributed to the migration of legacy intranet applications to modern React-based interfaces.",
+      "tech": ["JavaScript", "jQuery", "CSS", "Java", "REST APIs"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "myui-component-library",
+      "title": "MyUI — Component Library",
+      "summary": "A reusable React component library built with GSAP animations and SCSS. Distributed as an internal workspace package and consumed across multiple product applications.",
+      "tech": ["React", "TypeScript", "SCSS", "Storybook", "Vite"],
+      "href": null
+    },
+    {
+      "id": "portal-customer-dashboard",
+      "title": "Portal — Customer Dashboard",
+      "summary": "Next.js application providing self-service capabilities for enterprise customers. Server-side rendered, fully accessible, and internationalised for six markets.",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Playwright"],
+      "href": null
+    },
+    {
+      "id": "folio-experimental-3d-frontend",
+      "title": "Folio — Experimental 3D Frontend",
+      "summary": "A creative frontend experiment exploring WebGL and Three.js for immersive brand storytelling, built for a luxury client campaign and deployed as a standalone microsite.",
+      "tech": ["Three.js", "GSAP", "SCSS", "Vite"],
+      "href": null
+    }
+  ],
+  "education": [
+    {
+      "id": "ecole-centrale-paris-master",
+      "institution": "École Centrale Paris",
+      "degree": "Master of Engineering — Computer Science & Distributed Systems",
+      "period": {
+        "start": "2010",
+        "end": "2013"
+      }
+    },
+    {
+      "id": "iut-paris-rives-de-seine-dut",
+      "institution": "IUT Paris Rives de Seine",
+      "degree": "DUT Informatique — Software Development",
+      "period": {
+        "start": "2008",
+        "end": "2010"
+      }
+    }
+  ],
+  "contact": {
+    "links": [
+      {
+        "id": "email",
+        "label": "Email",
+        "href": "mailto:john.doe@example.com",
+        "display": "john.doe@example.com"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/johndoe",
+        "display": "linkedin.com/in/johndoe"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "href": "https://github.com/johndoe",
+        "display": "github.com/johndoe"
+      }
+    ]
+  }
+}

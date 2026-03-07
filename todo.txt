@@ -1,0 +1,53 @@
+We are continuing a real project that was prepared in a previous conversation.
+
+Context:
+- I am building a developer CV website in a pnpm monorepo.
+- The repo contains:
+  - apps/cv: Next.js 16 CV website
+  - packages/ui: React component library
+  - shared config packages for ESLint, Stylelint, Prettier, and TypeScript
+- We already worked on:
+  - monorepo structure
+  - shared tooling packages
+  - local ESLint configs per workspace
+  - Stylelint shared config consumption
+  - a first accessible CV page
+  - documentation (README / CLAUDE.md)
+- We now want to focus on the CV content model.
+
+Current goal:
+We want to design and complete a `cv-data.json` file that will become the single source of truth for:
+- the website
+- a future PDF export
+- a future RAG assistant
+- possibly a more headless architecture later
+
+Important constraints:
+- The JSON must be well-structured, stable, and easy to consume programmatically.
+- It must be suitable for future RAG ingestion.
+- It must not be over-engineered.
+- We want a pragmatic, production-oriented structure.
+- We will fill the real content step by step together.
+- If some current data looks fake, generic, or inconsistent, tell me clearly instead of smoothing it over.
+
+What I want from you in this conversation:
+1. Help me validate the JSON architecture.
+2. Help me replace placeholder content with real CV content.
+3. Distinguish clearly between:
+   - structure decisions
+   - real content drafting
+   - future RAG/headless concerns
+4. Be strict and practical.
+5. Do not overcomplicate the model unless there is a real reason.
+
+Working method:
+- We will go section by section.
+- You should challenge weak wording.
+- You should help me produce content that is credible for a real developer profile.
+- You should keep in mind that the final JSON must later be exploitable by a RAG system.
+
+Start by reviewing the current JSON structure and tell me:
+- what is good
+- what should be changed now
+- what should be deferred
+Then we will fill the real content step by step.
