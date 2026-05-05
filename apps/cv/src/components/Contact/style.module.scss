@@ -1,0 +1,34 @@
+.myui-cv-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+
+  .row {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.875rem;
+  }
+
+  .label {
+    width: 5.5rem;
+    flex-shrink: 0;
+    font-weight: 600;
+    color: #71717a; /* zinc-500 */
+    font-size: 0.8125rem;
+  }
+
+  .link {
+    color: var(--accent-text, #1d4ed8);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: var(--accent-mid, #bfdbfe);
+    transition:
+      color 0.15s ease,
+      text-decoration-color 0.15s ease;
+
+    &:hover {
+      color: var(--accent, #1e40af);
+      text-decoration-color: var(--accent, #1e40af);
+    }
+  }
+}

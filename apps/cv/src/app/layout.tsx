@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { Geist, Geist_Mono } from 'next/font/google';
+import cvEn from '@data/cv/cv.en.json';
 import './globals.css';
 
 const geistSans = Geist({
@@ -14,9 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'John Doe — Full-Stack Developer',
-  description:
-    'Full-Stack Developer with 10+ years of experience building scalable web applications and design systems for large enterprises.',
+  title: `${cvEn.basics.fullName} — ${cvEn.basics.headline}`,
+  description: cvEn.basics.summary,
 };
 
 export default function RootLayout({

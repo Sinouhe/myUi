@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "locale": "fr-FR",
+    "updatedAt": "2026-03-08"
+  },
+
+  "keyAchievements": [
+    "Tech Lead d’une plateforme React générant des pages pilotées par un headless CMS pour les plateformes digitales de Chanel.",
+    "Architecte d’une bibliothèque de composants partagée permettant à plusieurs équipes de construire et déployer des pages rapidement avec un risque minimal de régression.",
+    "Conception et maintenance d’une architecture monorepo (pnpm / Turborepo) hébergeant des bibliothèques partagées et plusieurs applications front-end.",
+    "Développement d’outils avancés autour de Storybook utilisés comme environnement de développement et d’intégration pour des structures JSON complexes issues du CMS.",
+    "Mise en place de standards d’ingénierie (ESLint, Prettier, Husky) et de tests automatisés afin d’améliorer la qualité du code et la fiabilité des livraisons."
+  ],
+
+  "basics": {
+    "fullName": "Sinouhé Fouqueau",
+    "headline": "Ingénieur JavaScript Senior – React • Node.js • TypeScript",
+
+    "summary": "Ingénieur JavaScript Senior avec plus de 10 ans d’expérience dans la conception et le développement d’applications web et de plateformes digitales. Spécialisé dans React, Node.js et les architectures front-end modernes incluant le Server-Side Rendering (SSR), les intégrations headless CMS et les architectures monorepo. Tech Lead expérimenté capable de coordonner des équipes de développement, de définir des standards d’ingénierie et de concevoir des bibliothèques de composants réutilisables pour des projets digitaux à grande échelle.",
+
+    "location": {
+      "city": "Paris",
+      "region": "Île-de-France",
+      "country": "France"
+    },
+
+    "contacts": {
+      "email": "todo@gmail.com",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/sinouh%C3%A9-fouqueau-520bb691/",
+      "github": "https://github.com/Sinouhe",
+      "portfolio": null
+    }
+  },
+
+  "skills": [
+    {
+      "category": "Langages",
+      "items": ["JavaScript", "TypeScript", "SQL"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "Storybook", "HTML", "CSS", "SCSS"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Express", "API REST", "Server-Side Rendering (SSR)"]
+    },
+    {
+      "category": "Architecture",
+      "items": ["Monorepo", "pnpm", "Turborepo", "Bibliothèques de composants", "Headless CMS"]
+    },
+    {
+      "category": "Tests",
+      "items": ["Jest", "Cypress"]
+    },
+    {
+      "category": "Outillage",
+      "items": ["Git", "pnpm", "ESLint", "Prettier", "Stylelint", "Husky", "Docker"]
+    },
+    {
+      "category": "Bases de données",
+      "items": ["SQL Server", "DB2"]
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Mazarine",
+      "sector": "Agence digitale spécialisée dans le luxe",
+      "location": "Paris, France",
+      "roles": [
+        {
+          "title": "Tech Lead JavaScript",
+          "client": "Chanel",
+          "startDate": "2023-11",
+          "endDate": null,
+          "summary": "Leadership technique d’une équipe front-end développant des applications React headless pour les plateformes digitales de Chanel.",
+          "highlights": [
+            "Encadrement d’une équipe de 4 développeurs et coordination des décisions d’architecture, des revues de code et de la planification des livraisons.",
+            "Conception et maintenance d’un monorepo pnpm incluant des bibliothèques de composants partagées, des pages éditoriales et des pages produits stables.",
+            "Architecture et migration entre plusieurs générations de bibliothèques front-end tout en garantissant la rétrocompatibilité.",
+            "Développement d’outils avancés autour de Storybook utilisés comme environnement de développement et d’intégration pour les données JSON du CMS.",
+            "Définition de standards front-end partagés (ESLint flat config, Prettier, Stylelint, TypeScript, hooks de pre-commit Husky).",
+            "Accompagnement des équipes éditoriales afin d’accélérer la production de pages tout en réduisant les risques de régression.",
+            "Collaboration avec une équipe dédiée à l’accessibilité et implémentation des améliorations issues d’audits WCAG.",
+            "Garantie des performances SEO, de la conformité accessibilité et de la fiabilité globale des livraisons front-end."
+          ],
+          "tech": [
+            "React",
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "Storybook",
+            "pnpm",
+            "Turborepo",
+            "ESLint",
+            "Prettier",
+            "Stylelint",
+            "Husky",
+            "Astro",
+            "API REST",
+            "Server-Side Rendering (SSR)",
+            "Hydratation React",
+            "Accessibilité WCAG"
+          ]
+        },
+        {
+          "title": "Développeur JavaScript Senior",
+          "client": "Chanel",
+          "startDate": "2021-06",
+          "endDate": "2023-10",
+          "summary": "Développement et maintenance d’une application React / Node.js générant des pages HTML côté serveur via des API REST dans un environnement headless CMS pour les plateformes digitales de Chanel.",
+          "highlights": [
+            "Développement et maintenance d’une application React avec Node.js / Express responsable du routage et du rendu HTML côté serveur.",
+            "Implémentation du Server-Side Rendering avec streaming React et hydratation côté client afin d’assurer les performances SEO et le chargement rapide des pages.",
+            "Agrégation de données provenant de multiples API (services produits, contenus headless CMS) et transformation des structures JSON en arbres de composants React.",
+            "Développement de composants UI réutilisables et de patterns d’intégration utilisés sur de nombreuses pages dans une architecture headless CMS.",
+            "Mise en place de tests automatisés Jest validant les transformations JSON CMS vers URLs afin d’éviter les régressions sur le routage multilingue.",
+            "Introduction de standards de qualité de code incluant ESLint, Prettier et Husky pour stabiliser la base de code.",
+            "Participation aux discussions d’architecture et aux décisions techniques pour faire évoluer la plateforme.",
+            "Travail dans un environnement exigeant avec de fortes contraintes SEO, accessibilité, performance et fiabilité des livraisons."
+          ],
+          "tech": [
+            "React",
+            "Node.js",
+            "Express",
+            "JavaScript",
+            "TypeScript",
+            "Jest",
+            "Server-Side Rendering (SSR)",
+            "Hydratation React",
+            "Headless CMS",
+            "API REST",
+            "Storybook"
+          ]
+        }
+      ]
+    },
+
+    {
+      "company": "Stime (Groupement Les Mousquetaires)",
+      "client": "Intermarché",
+      "location": "Paris, France",
+      "roles": [
+        {
+          "title": "Développeur JavaScript",
+          "startDate": "2019-01",
+          "endDate": "2021-05",
+          "summary": "Développement et migration d’une application e-commerce à grande échelle pour Intermarché.",
+          "highlights": [
+            "Participation à la refonte et à la migration d’une plateforme e-commerce legacy vers une architecture moderne basée sur React.",
+            "Développement de fonctionnalités clés incluant pages de listing produits, panier, tunnel d’achat et espace client.",
+            "Travail sur une architecture SSR utilisant Node.js et Express pour générer les pages React.",
+            "Contribution à la migration de la plateforme vers une architecture basée sur Next.js.",
+            "Implémentation de fonctionnalités de tracking via Google Tag Manager pour analyser les parcours utilisateurs.",
+            "Développement de composants React réutilisables basés sur les hooks et les patterns fonctionnels.",
+            "Implémentation d’interfaces responsive avec styled-components.",
+            "Écriture de tests end-to-end avec Cypress et scénarios Gherkin.",
+            "Participation aux cycles de développement Agile au sein d’une équipe Scrum."
+          ],
+          "tech": [
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express",
+            "JavaScript",
+            "Redux",
+            "Styled-components",
+            "Cypress",
+            "Gherkin",
+            "Storybook",
+            "Google Tag Manager",
+            "Redis",
+            "Server-Side Rendering (SSR)"
+          ]
+        }
+      ]
+    },
+
+    {
+      "company": "Société Générale",
+      "location": "Val-de-Fontenay, France",
+      "roles": [
+        {
+          "title": "Développeur Fullstack",
+          "startDate": "2018-07",
+          "endDate": "2019-01",
+          "summary": "Contribution à des applications bancaires internes liées à la gestion d’opérations financières.",
+          "highlights": [
+            "Développement de composants front-end en Vue.js et Backbone intégrés dans des dashboards internes.",
+            "Contribution à une plateforme d’opérations financières (OST – Opérations Sur Titres) combinant services backend Java et frontend React/Redux.",
+            "Interaction avec des API internes afin de récupérer les opérations financières clients et les exposer dans l’interface utilisateur."
+          ],
+          "tech": ["Java", "Maven", "Vue.js", "Backbone.js", "React", "Redux"]
+        }
+      ]
+    },
+
+    {
+      "company": "Mazarine",
+      "location": "Paris, France",
+      "roles": [
+        {
+          "title": "Développeur JavaScript",
+          "startDate": "2018-04",
+          "endDate": "2018-07",
+          "summary": "Développement d’une API Node.js servant de connecteur pour générer des pages React rendues côté serveur pour un site d’une marque de luxe.",
+          "highlights": [
+            "Développement d’une API Node.js / Express responsable de l’agrégation des données CMS et produits afin de générer les pages React.",
+            "Implémentation de la logique de Server-Side Rendering retournant du HTML via des endpoints API.",
+            "Transformation des structures JSON du CMS et conversion des liens JSON internes en URLs multilingues exploitables."
+          ],
+          "tech": [
+            "Node.js",
+            "Express",
+            "React",
+            "JavaScript",
+            "Redux",
+            "Server-Side Rendering (SSR)"
+          ]
+        }
+      ]
+    },
+
+    {
+      "company": "Le Conservateur",
+      "sector": "Assurance / Gestion de patrimoine",
+      "location": "France",
+      "roles": [
+        {
+          "title": "Développeur logiciel",
+          "startDate": "2017-01",
+          "endDate": "2018-04",
+          "summary": "Développement et maintenance d’applications financières internes dans un environnement réglementé.",
+          "highlights": [
+            "Développement d’applications supportant des processus de conformité financière incluant les contrôles anti-blanchiment (TRACFIN).",
+            "Conception de schémas de bases de données et implémentation de requêtes SQL et procédures stockées sur DB2.",
+            "Maintenance de traitements batch et de processus de reporting exécutés sur les données financières."
+          ],
+          "tech": ["WinDev", "WebDev", "DB2", "SQL", "Stored Procedures"]
+        }
+      ]
+    },
+
+    {
+      "company": "CryoExpress (Groupe Air Liquide)",
+      "location": "France",
+      "roles": [
+        {
+          "title": "Développeur logiciel",
+          "startDate": "2014-01",
+          "endDate": "2017-01",
+          "summary": "Développement d’un ERP interne gérant la logistique, la facturation et les intégrations transporteurs.",
+          "highlights": [
+            "Développement de modules logistique et facturation pour une plateforme ERP interne.",
+            "Implémentation d’intégrations EDI avec des transporteurs via des web services SOAP et XML.",
+            "Implémentation de procédures stockées SQL Server et de traitements batch pour les processus de facturation.",
+            "Intégration des flux de facturation de l’ERP avec les systèmes SAP du groupe Air Liquide."
+          ],
+          "tech": ["WinDev", "WebDev", "SQL Server", "Transact-SQL", "SOAP", "XML", "EDI"]
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Plateforme CV Développeur",
+      "role": "Créateur / Ingénieur logiciel",
+      "summary": "Plateforme personnelle de CV développée comme une application web moderne afin de présenter l’expérience professionnelle, les projets et les compétences techniques.",
+      "highlights": [
+        "Conception d’un modèle de données CV structuré en JSON utilisé comme source unique de vérité.",
+        "Développement d’une application Next.js rendant dynamiquement le CV à partir de données structurées.",
+        "Implémentation d’une bibliothèque de composants UI réutilisable pour afficher les différentes sections du CV.",
+        "Préparation de l’architecture afin d’intégrer des fonctionnalités basées sur l’IA comme un système RAG."
+      ],
+      "tech": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "JSON",
+        "Architecture orientée composants"
+      ],
+      "links": [
+        {
+          "type": "source",
+          "url": "https://github.com/Sinouhe"
+        }
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Conservatoire National des Arts et Métiers (CNAM)",
+      "degree": "Diplôme de développeur informatique (RNCP Niveau III)",
+      "field": "Développement logiciel",
+      "endDate": "2018",
+      "note": "Stage de fin d’études (Erasmus) en Finlande chez Beweship dans un environnement international anglophone."
+    },
+    {
+      "institution": "École Européenne des Transports (EET)",
+      "degree": "Master",
+      "field": "Management du transport et de la logistique",
+      "endDate": "2006"
+    }
+  ],
+
+  "languages": [
+    {
+      "name": "Français",
+      "level": "Langue maternelle"
+    },
+    {
+      "name": "Anglais",
+      "level": "Niveau professionnel"
+    }
+  ]
+}

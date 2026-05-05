@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "locale": "en-US",
+    "updatedAt": "2026-03-08"
+  },
+
+  "keyAchievements": [
+    "Tech Lead of a React platform delivering headless CMS-driven pages for Chanel digital platforms.",
+    "Architect of a shared component library enabling multiple teams to build and deploy pages rapidly with minimal regression risk.",
+    "Designed and maintained a monorepo architecture (pnpm / Turborepo) hosting shared libraries and multiple front-end applications.",
+    "Developed advanced Storybook tooling used as a development and integration environment for complex CMS JSON data.",
+    "Introduced engineering standards including ESLint, Prettier, Husky and automated tests to improve code quality and delivery reliability."
+  ],
+
+  "basics": {
+    "fullName": "Sinouhé Fouqueau",
+    "headline": "Senior JavaScript Engineer – React • Node.js • TypeScript",
+
+    "summary": "Senior JavaScript Engineer with 10+ years of experience building scalable web applications and digital platforms. Specialized in React, Node.js and modern frontend architecture including server-side rendering (SSR), headless CMS integrations and monorepo platforms. Experienced Tech Lead coordinating development teams, defining engineering standards and designing reusable component libraries for large-scale digital projects.",
+
+    "location": {
+      "city": "Paris",
+      "region": "Île-de-France",
+      "country": "France"
+    },
+
+    "contacts": {
+      "email": "todo@gmail.com",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/sinouh%C3%A9-fouqueau-520bb691/",
+      "github": "https://github.com/Sinouhe",
+      "portfolio": null
+    }
+  },
+
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["JavaScript", "TypeScript", "SQL"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "Storybook", "HTML", "CSS", "SCSS"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Express", "REST APIs", "Server-Side Rendering (SSR)"]
+    },
+    {
+      "category": "Architecture",
+      "items": ["Monorepo", "pnpm", "Turborepo", "Component Libraries", "Headless CMS"]
+    },
+    {
+      "category": "Testing",
+      "items": ["Jest", "Cypress"]
+    },
+    {
+      "category": "Tooling",
+      "items": ["Git", "pnpm", "ESLint", "Prettier", "Stylelint", "Husky", "Docker"]
+    },
+    {
+      "category": "Databases",
+      "items": ["SQL Server", "DB2"]
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Mazarine",
+      "sector": "Luxury digital agency",
+      "location": "Paris, France",
+      "roles": [
+        {
+          "title": "Tech Lead JavaScript",
+          "client": "Chanel",
+          "startDate": "2023-11",
+          "endDate": null,
+          "summary": "Technical leadership of a front-end team working on headless React applications for Chanel digital platforms.",
+          "highlights": [
+            "Lead a team of 4 developers and coordinate architecture decisions, code reviews and delivery planning.",
+            "Design and maintain a pnpm monorepo including shared component libraries, editorial pages and stable product pages.",
+            "Architect migration between multiple generations of front-end libraries while ensuring backward compatibility.",
+            "Develop advanced Storybook tooling used as a development and integration environment for headless CMS JSON data.",
+            "Define shared front-end standards (ESLint flat config, Prettier, Stylelint, TypeScript, Husky pre-commit checks).",
+            "Support editorial teams to accelerate page production while reducing regression risks.",
+            "Collaborate with a dedicated accessibility team and implement improvements following accessibility audits (WCAG guidelines).",
+            "Ensure SEO performance, accessibility compliance and overall reliability of front-end deliveries."
+          ],
+          "tech": [
+            "React",
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "Storybook",
+            "pnpm",
+            "Turborepo",
+            "ESLint",
+            "Prettier",
+            "Stylelint",
+            "Husky",
+            "Astro",
+            "REST API",
+            "Server-Side Rendering (SSR)",
+            "React Hydration",
+            "WCAG Accessibility"
+          ]
+        },
+        {
+          "title": "Senior JavaScript Developer",
+          "client": "Chanel",
+          "startDate": "2021-06",
+          "endDate": "2023-10",
+          "summary": "Development and maintenance of a React / Node.js application delivering server-rendered HTML through REST APIs in a headless CMS environment for Chanel digital platforms.",
+          "highlights": [
+            "Develop and maintain a React application with Node.js / Express responsible for routing and server-side rendering of HTML pages.",
+            "Implement server-side rendering with React streaming and client-side hydration to ensure SEO performance and fast page loading.",
+            "Aggregate data from multiple APIs (product services, headless CMS content) and transform JSON structures into React component trees.",
+            "Develop reusable UI components and integration patterns used across multiple pages in a headless CMS architecture.",
+            "Implement automated Jest tests validating CMS JSON to URL transformations and preventing regressions on multilingual routing logic.",
+            "Introduce code quality standards including ESLint, Prettier and Husky pre-commit checks to stabilize the codebase.",
+            "Participate in architecture discussions and technical design decisions to evolve the platform.",
+            "Work in a high-demand environment with strong constraints on SEO, accessibility, performance and delivery reliability."
+          ],
+          "tech": [
+            "React",
+            "Node.js",
+            "Express",
+            "JavaScript",
+            "TypeScript",
+            "Jest",
+            "Server-Side Rendering (SSR)",
+            "React Hydration",
+            "Headless CMS",
+            "REST API",
+            "Storybook"
+          ]
+        }
+      ]
+    },
+
+    {
+      "company": "Stime (Groupement Les Mousquetaires)",
+      "client": "Intermarché",
+      "location": "Paris, France",
+      "roles": [
+        {
+          "title": "JavaScript Developer",
+          "startDate": "2019-01",
+          "endDate": "2021-05",
+          "summary": "Development and migration of a large-scale e-commerce web application for Intermarché.",
+          "highlights": [
+            "Contribute to the redesign and migration of a legacy e-commerce platform toward a modern React architecture.",
+            "Develop key features including product listing pages, shopping cart, checkout flow and customer account management.",
+            "Work on a server-side rendering architecture using Node.js and Express to deliver React pages.",
+            "Contribute to the migration of the platform toward a Next.js-based architecture.",
+            "Implement tracking features using Google Tag Manager to analyse customer journeys.",
+            "Develop reusable React components using hooks and functional patterns.",
+            "Implement responsive interfaces using styled-components.",
+            "Write end-to-end tests using Cypress and Gherkin scenarios.",
+            "Participate in Agile development cycles within a Scrum team."
+          ],
+          "tech": [
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express",
+            "JavaScript",
+            "Redux",
+            "Styled-components",
+            "Cypress",
+            "Gherkin",
+            "Storybook",
+            "Google Tag Manager",
+            "Redis",
+            "Server-Side Rendering (SSR)"
+          ]
+        }
+      ]
+    },
+
+    {
+      "company": "Société Générale",
+      "location": "Val-de-Fontenay, France",
+      "roles": [
+        {
+          "title": "Fullstack Developer",
+          "startDate": "2018-07",
+          "endDate": "2019-01",
+          "summary": "Contribution to internal banking applications related to financial operations management.",
+          "highlights": [
+            "Develop frontend components using Vue.js and Backbone for integration within internal dashboards.",
+            "Contribute to a financial operations platform (OST – Operations Sur Titres) combining Java backend services and React/Redux frontend.",
+            "Interact with internal APIs and services to retrieve client financial operations and expose them in the user interface."
+          ],
+          "tech": ["Java", "Maven", "Vue.js", "Backbone.js", "React", "Redux"]
+        }
+      ]
+    },
+
+    {
+      "company": "Mazarine",
+      "location": "Paris, France",
+      "roles": [
+        {
+          "title": "JavaScript Developer",
+          "startDate": "2018-04",
+          "endDate": "2018-07",
+          "summary": "Development of a Node.js connector API used to generate server-rendered React pages for a luxury brand website.",
+          "highlights": [
+            "Develop a Node.js / Express API responsible for aggregating CMS and product data to generate React pages.",
+            "Implement server-side rendering logic delivering HTML through API endpoints.",
+            "Transform CMS JSON structures and convert internal JSON links into production-ready multilingual URLs."
+          ],
+          "tech": [
+            "Node.js",
+            "Express",
+            "React",
+            "JavaScript",
+            "Redux",
+            "Server-Side Rendering (SSR)"
+          ]
+        }
+      ]
+    },
+
+    {
+      "company": "Le Conservateur",
+      "sector": "Insurance / Wealth management",
+      "location": "France",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "startDate": "2017-01",
+          "endDate": "2018-04",
+          "summary": "Development and maintenance of internal financial applications within a regulated environment.",
+          "highlights": [
+            "Develop applications supporting financial compliance processes including anti-money laundering checks (TRACFIN).",
+            "Design database schemas and implement SQL queries and stored procedures on DB2 databases.",
+            "Maintain batch processing and reporting processes executed on financial datasets."
+          ],
+          "tech": ["WinDev", "WebDev", "DB2", "SQL", "Stored Procedures"]
+        }
+      ]
+    },
+
+    {
+      "company": "CryoExpress (Air Liquide Group)",
+      "location": "France",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "startDate": "2014-01",
+          "endDate": "2017-01",
+          "summary": "Development of an internal ERP system managing logistics, billing and transport integrations.",
+          "highlights": [
+            "Develop logistics and billing modules for an internal ERP platform.",
+            "Implement EDI integrations with carriers using SOAP and XML web services.",
+            "Implement SQL Server stored procedures and batch processes for invoicing workflows.",
+            "Integrate ERP billing workflows with SAP systems used by the Air Liquide group."
+          ],
+          "tech": ["WinDev", "WebDev", "SQL Server", "Transact-SQL", "SOAP", "XML", "EDI"]
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Developer CV Platform",
+      "role": "Creator / Software Engineer",
+      "summary": "Personal developer CV platform built as a modern web application to showcase professional experience, projects and technical skills.",
+      "highlights": [
+        "Design a structured JSON-based CV data model used as a single source of truth for experience, skills and projects.",
+        "Build a modern Next.js application rendering the CV dynamically from structured data.",
+        "Implement a reusable UI component library for CV sections and content rendering.",
+        "Prepare the architecture to integrate AI-powered features such as RAG-based knowledge retrieval."
+      ],
+      "tech": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "JSON",
+        "Component-Based Architecture"
+      ],
+      "links": [
+        {
+          "type": "source",
+          "url": "https://github.com/Sinouhe"
+        }
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Conservatoire National des Arts et Métiers (CNAM)",
+      "degree": "Technician Developer Certification (RNCP Level III)",
+      "field": "Software Development",
+      "endDate": "2018",
+      "note": "Final-year internship (Erasmus) in Finland at Beweship within an international English-speaking environment."
+    },
+    {
+      "institution": "École Européenne des Transports (EET)",
+      "degree": "Master",
+      "field": "Transport and Logistics Management",
+      "endDate": "2006"
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Professional working proficiency"
+    }
+  ]
+}

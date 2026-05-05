@@ -1,0 +1,109 @@
+.myui-cv-projects {
+  display: grid;
+  gap: 1rem;
+
+  @media (width >= 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid #e4e4e7; /* zinc-200 */
+    border-radius: 0.5rem;
+    transition:
+      box-shadow 0.2s ease,
+      border-color 0.2s ease;
+
+    @media (prefers-reduced-motion: no-preference) {
+      &:hover {
+        box-shadow: 0 4px 16px 0 rgb(0 0 0 / 7%);
+        border-color: #d4d4d8; /* zinc-300 */
+      }
+    }
+
+    @media print {
+      box-shadow: none;
+      border-color: #e4e4e7;
+    }
+  }
+
+  .project-name {
+    margin-bottom: 0.25rem;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #18181b; /* zinc-900 */
+    letter-spacing: -0.01em;
+  }
+
+  .project-role {
+    margin-bottom: 0.875rem;
+    font-size: 0.8125rem;
+    color: #71717a; /* zinc-500 */
+  }
+
+  .summary {
+    flex: 1;
+    margin-bottom: 0.875rem;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: #52525b; /* zinc-600 */
+  }
+
+  .highlights {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .highlight {
+    font-size: 0.8125rem;
+    line-height: 1.65;
+    color: #52525b; /* zinc-600 */
+    padding-left: 1rem;
+    position: relative;
+
+    &::before {
+      content: '–';
+      position: absolute;
+      left: 0;
+      color: #a1a1aa; /* zinc-400 */
+    }
+  }
+
+  /* Projects tech tags: accent-tinted — matches skills visual language */
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+    margin-bottom: 1rem;
+  }
+
+  .tag {
+    padding: 0.1875rem 0.5rem;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: var(--accent, #1e40af);
+    background-color: var(--accent-bg, #eff6ff);
+    border-radius: 0.25rem;
+    line-height: 1.5;
+  }
+
+  .link {
+    align-self: flex-start;
+    margin-top: auto;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--accent-text, #1d4ed8);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: var(--accent, #1e40af);
+    }
+  }
+}

@@ -4,7 +4,7 @@ const rootDir = import.meta.dirname;
 
 export default [
   {
-    ignores: ['**/node_modules/**', '**/dist/**', '**/.next/**'],
+    ignores: ['**/node_modules/**', '**/dist/**', '**/.next/**', 'next-env.d.ts'],
   },
   ...createConfig({
     tsconfigRootDir: rootDir,

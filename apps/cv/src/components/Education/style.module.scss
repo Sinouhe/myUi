@@ -1,0 +1,53 @@
+.myui-cv-education {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+
+  .entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .institution {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #18181b; /* zinc-900 */
+    letter-spacing: -0.01em;
+  }
+
+  .degree {
+    margin-top: 0.2rem;
+    font-size: 0.875rem;
+    color: #3f3f46; /* zinc-700 */
+  }
+
+  .field {
+    margin-top: 0.125rem;
+    font-size: 0.8125rem;
+    color: #71717a; /* zinc-500 */
+  }
+
+  .year {
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+    color: var(--accent, #1e40af);
+    background-color: var(--accent-bg, #eff6ff);
+    padding: 0.1875rem 0.5rem;
+    border-radius: 0.25rem;
+    line-height: 1.5;
+  }
+
+  .note {
+    margin-top: 0.625rem;
+    font-size: 0.8125rem;
+    font-style: italic;
+    color: #71717a; /* zinc-500 */
+    line-height: 1.6;
+  }
+}

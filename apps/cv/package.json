@@ -7,10 +7,12 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint . && pnpm run lint:styles"
+    "lint": "eslint . && pnpm run lint:styles",
+    "lint:styles": "stylelint \"src/**/*.{scss,css}\""
   },
   "dependencies": {
     "@myui/ui": "workspace:*",
+    "@data/cv": "workspace:*",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
@@ -31,5 +33,6 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-  "prettier": "@myui/prettier-config"
+  "prettier": "@myui/prettier-config",
+  "type": "module"
 }

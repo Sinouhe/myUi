@@ -1,0 +1,21 @@
+.myui-cv-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+
+  .item {
+    min-width: 9rem;
+  }
+
+  .name {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #18181b; /* zinc-900 */
+  }
+
+  .level {
+    margin-top: 0.2rem;
+    font-size: 0.8125rem;
+    color: #71717a; /* zinc-500 */
+  }
+}
